@@ -1,0 +1,218 @@
+body {
+    background-color: #eee;
+}
+.part-one {
+    text-align: center;
+    padding: 24px;
+    background-image: linear-gradient(#1b2021, rgb(0 0 0 / 14%)),
+        url(../images/inspiration-img/test.png);
+    background-size: 100% 36.7em;
+    height: 22rem;
+    background-repeat: no-repeat;
+    color: var(--second-color);
+    border-radius: 0 0 24px 24px;
+}
+@media (max-width: 767px) {
+    .part-one {
+        height: 60vh;
+        background-size: 182% 100%;
+    }
+}
+.part-one p {
+    margin: 20px;
+    font-size: 1.5rem;
+}
+/*    first-creator */
+.first-creator {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    position: relative;
+    background-color: #eee;
+}
+.Matthnew-part {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.Matthnew-part h2 {
+    color: black;
+    margin-left: 10vh;
+}
+.Matthnew-part img {
+    width: 48vh;
+    height: 40vh;
+    border-radius: 30px;
+
+    margin-left: 12vh;
+}
+@media (max-width: 767px) {
+    .Matthnew-part {
+        flex-direction: column;
+    }
+    .Matthnew-part h2,
+    .Matthnew-part img {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+}
+.Dic-video p {
+    font-size: 20px;
+    text-align: center;
+    /* color: #fff; */
+    color: black;
+    padding-top: 30px;
+}
+.Dic-video video {
+    background-color: #06060508;
+    width: 100%;
+    height: 50vh;
+    margin-top: 16px;
+    z-index: -2;
+}
+@media (max-width: 767px) {
+    .Dic-video video {
+        height: 38vh;
+    }
+}
+/* second creator */
+.Second-creator {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    position: relative;
+
+    height: 110vh;
+    background-size: cover;
+    background-image: linear-gradient(#000000c2, black);
+}
+@media (max-width: 767px) {
+    .Second-creator {
+        flex-direction: column;
+        height: 120vh;
+        margin-top: 0px;
+    }
+}
+.Mike-Wat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+}
+.nameofmike {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: row;
+}
+.nameofmike h2 {
+    color: var(--third-color-rgb);
+    margin-left: 10vh;
+}
+.nameofmike img {
+    width: 44vh;
+    border-radius: 41px;
+    margin-left: -66px;
+}
+@media (max-width: 767px) {
+    .nameofmike {
+        flex-direction: column;
+    }
+    .nameofmike h2 {
+        flex-direction: column;
+    }
+    .nameofmike img {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+.mike-video {
+    position: relative;
+}
+
+.mike-video p {
+    font-size: 20px;
+    text-align: center;
+    color: var(--third-color-rgb);
+    padding-top: 30px;
+}
+.mike-video video {
+    width: 100%;
+    height: 48.7vh;
+    margin-top: 16px;
+}
+@media (max-width: 1045px) {
+    .mike-video video {
+        height: 30vh;
+    }
+}
+
+@media (max-width: 767px) {
+    .mike-video video {
+        height: 20vh;
+    }
+}
+
+footer {
+    background-color: #ededee;
+    padding: 40px 0 20px 0;
+    text-align: center;
+}
+.social-links {
+    margin-bottom: 25px;
+}
+.social-links a {
+    color: #4b4c4d;
+    font-size: 1.5rem;
+    border: 1px solid #aaa;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+.social-links a:hover {
+    opacity: 0.9;
+}
+.nav-list {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+.nav-list li {
+    display: inline-flex;
+}
+.nav-list li a {
+    padding: 10px 15px;
+    color: inherit;
+}
+.nav-list li a:hover {
+    font-weight: bold;
+}
+.copy-right {
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+.go-to-top {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background-color: var(--third-color);
+    color: black;
+    z-index: 100;
+}
+.go-to-top i {
+    padding: 15px;
+}
